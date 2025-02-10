@@ -9,12 +9,18 @@ content {
 h1{
     font-family:'Noto+Sans'
 }
+h2{
+    margin: 0;
+}
 nav{
     text-align: center; 
 }
 #hero img{
     text-align: center;
     width: 100%
+}
+main section img{
+    box-sizing: border-box;
 }
 a{
     text-align: center; 
@@ -33,28 +39,37 @@ section{
 }
 #heromsg h4{
     text-align: center;
+    font-family:'Quicksand'
 }
 #background {
     height: 725px;
     background-color:#3D348B
 }
 body{
-    background-color:#383BE5
+    background-color:#383BE5;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#3D348B;
     color: #FED148
 }
 footer{
-    background-color:#3D348B
+    background-color:#3D348B;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg{
-    background-color:#3D348B
+    background-color:#3D348B;
+    line-height: 1.5em;
 }
 .book, .join{
     background-color:#3D348B;
     color: #FED148;
     text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top:50px;
 }
 .book:hover, .join:hover{
     background-color:#FED148;
@@ -67,11 +82,14 @@ nav a:hover{
 nav a{
     color: #FED148;
     text-decoration: none;
-    font-family: 'Quicksand'
+    font-family: 'Quicksand';
+    padding: 35px;
 }
 .home-title{
     color: #FED148;
-    font-family: 'Noto+Sans'
+    font-family: 'Noto+Sans';
+    font-size: 2em;
+    margin-top: 10px;
 }
 hr{
     color: #FED148
@@ -80,7 +98,10 @@ hr{
     color: #FED148
 }
 .msg p{
-    color: #FED148
+    color: #FED148;
+    font-family: 'Quicksand';
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #FED148;
@@ -102,3 +123,15 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }    
+#logo-link{
+    padding-top: 5px;
+}
+.social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+.card-img{
+    border: solid black 10 px;
+}
