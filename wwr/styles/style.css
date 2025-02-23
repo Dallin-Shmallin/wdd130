@@ -95,7 +95,10 @@ section{
 #heromsg h4{
     text-align: center;
     font-family:'Quicksand';
-    color: white;
+    color: #FFFFFF;
+}
+h4{
+    color:white;
 }
 #background {
     height: 725px;
@@ -221,9 +224,6 @@ footer p a:hover {
     }
     #hero-msg {
         margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
     }
     #hero-msg h1 {
         color: #6f7364;
