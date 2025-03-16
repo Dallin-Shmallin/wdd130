@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width:1600px;
+}
+p{
+    font-family: 'Quicksand';
+    color:#F6E8EA;
+}
+body {
+    background-color:#EF626C;
+}
+#gecko_image{
+    padding-top: 150px;
+    width:400px;
+    grid-column:1;
+}
+#zebra_image{
+    padding-top: 150px;
+    width:400px;
+    grid-column:3;
+    justify-self: end;
+}
+#animal_desc {
+    grid-column: 1 / -1;
+    color: #312F2F;
+    padding-top: 100px;
+}
+#logo_link{
+    position: absolute;
+    top: 90%; /* Adjust this value as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the logo is on top */
+}
+header nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+main section img{
+    box-sizing: border-box;
+}
+a{
+    text-align: center; 
+}
+main{
+    text-align: center; 
+}
+section{
+    text-align: center; 
+}
+#background {
+    height: 725px;
+    background-color:#22181C;
+}
+header{
+    background-color:#22181C;
+    color: #EF626C;
+}
+footer{
+    background-color:#22181C;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color:#F6E8EA;
+    text-align:left;
+}
+
+nav a:hover{
+    background-color:#312F2F;
+    color: #F6E8EA
+}
+nav a{
+    color: #F6E8EA;
+    text-decoration: none;
+    font-family: 'Sigmar';
+    padding: 35px;
+}
