@@ -32,6 +32,34 @@ body {
     grid-column:3;
     justify-self: end;
 }
+#peregrine_falcon1{
+    width:400px;
+    grid-column:1/2;
+    border-radius: 200px;
+}
+#peregrine_falcon2{
+    width:400px;
+    grid-column:3/4;
+    margin-top: 700px;
+    justify-self: end;
+    border-radius: 200px;
+}
+#red_panda1{
+    width:400px;
+    grid-column:3/4;
+    margin-top: 400px;
+}
+#red_panda2{
+    width:400px;
+    grid-column:1/2;
+    margin-top: 400px;
+    justify-self: end;
+}
+#animal_desc_peregrine{
+    grid-column: 2;
+    color: #312F2F;
+    padding-top: 600px;
+}
 #animal_desc {
     grid-column: 1 / -1;
     color: #312F2F;
