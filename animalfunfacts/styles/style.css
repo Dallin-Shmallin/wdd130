@@ -47,23 +47,40 @@ body {
 #red_panda1{
     width:400px;
     grid-column:3/4;
-    margin-top: 400px;
+    grid-row: 3/4;
+    border-radius:200px;
+    margin-bottom:200px;
 }
 #red_panda2{
     width:400px;
     grid-column:1/2;
-    margin-top: 400px;
+    grid-row:1/2;
+    margin-top:120px;
     justify-self: end;
+    border-radius: 200px;
+}
+#animal_desc_red_panda{
+    grid-column: 3;
+    color: #312F2F;
+    padding-top: 200px;
+    justify-self: start;
+}
+#animal_desc_red_panda2{
+    grid-column: 1;
+    color: #312F2F;
+    padding-top: 100px;
+    grid-row:3/4;
 }
 #animal_desc_peregrine{
     grid-column: 2;
     color: #312F2F;
-    padding-top: 600px;
 }
+
 #animal_desc {
     grid-column: 1 / -1;
     color: #312F2F;
     padding-top: 100px;
+    padding-bottom:200px;
 }
 #logo_link{
     position: absolute;
@@ -101,7 +118,6 @@ header{
 footer{
     background-color:#22181C;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-between;
 }
