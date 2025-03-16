@@ -74,6 +74,7 @@ body {
 #animal_desc_peregrine{
     grid-column: 2;
     color: #312F2F;
+    padding-top: 600px;
 }
 
 #animal_desc {
