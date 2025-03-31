@@ -64,12 +64,14 @@ body {
     color: #312F2F;
     padding-top: 200px;
     justify-self: start;
+    margin-right:50px;
 }
 #animal_desc_red_panda2{
     grid-column: 1;
     color: #312F2F;
     padding-top: 100px;
     grid-row:3/4;
+    margin-left:50px;
 }
 #animal_desc_peregrine{
     grid-column: 2;
