@@ -42,11 +42,9 @@ body {
 #peregrine_falcon2{
     width:400px;
     grid-column:3/4;
-    margin-top: 700px;
     justify-self: end;
     border-radius: 200px;
     grid-row:3;
-    align-self: bottom;
 }
 #red_panda1{
     width:400px;
@@ -81,9 +79,7 @@ body {
     grid-column: 2;
     color: #312F2F;
     padding-top: 600px;
-    margin: 0 50%;
     align-self: center;
-    grid-row:2;
 }
 
 #animal_desc {
